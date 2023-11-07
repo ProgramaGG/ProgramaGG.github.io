@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: white;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+.planeta{
+    position: relative;
+    bottom:  220px;
+}
+/*nabvar*/
+.home1{
+    color: white;
+    position: relative;
+    right:855px;
+    top:5px;
+ }
+.home{
+    color: white;
+    position: relative;
+    right:220px;
+    top:5px;
+ }
+ 
+ .h500{
+     position: absolute;
+     left:60px;
+     bottom: -5px;
+     color: white
+ }
+ .h510{
+     position: absolute;
+     left:60px;
+     bottom: -5px;
+     color: white
+ }
+ .h520{
+     position: absolute;
+     left:55px;
+     bottom: -5px;
+     color: white
+ }
+  .nav-itemb{
+     position: relative;
+     right: 3px;
+     
+         
+ }
+ .nav-itemb1{
+     position: relative;
+     right: 270px;
+         
+ }
+ .nav-itemb2{
+     position: relative;
+    right: 505px;
+         
+ }
+.nav-itemb3{
+     position: absolute;
+    left:  420px;
+         
+ }
+  .nav-itemb4{
+     position: absolute;
+    left:560px;
+         
+ }
+  .form-group{
+     position: relative;
+     bottom:  7px;
+     left: 330px;
+ }
+ .form_link{
+     color:#fff;
+     
+ }
+.tablausu{
+    position:relative;
+  left: 426px;
+}
+ .perfil{
+     display: flex;
+     justify-content: center;
+     
+ }
+.nom{
+     position: absolute;
+     top:-5px;
+     right: 70px;
+ } 
+ .register{
+   position: relative;
+   top:7px;
+   left: 127px;
+ } 
+ .dropdown{
+     position: absolute;
+     left: 1500px;
+ }
+
+/*pie de pagina*/
+
+
+.pie{
+    background: #3c3c3c;
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    top: 3537px;
+
+    .face{
+        position: absolute;
+        left: 1415px;
+        top:50px;
+    }
+    .gor{
+        position: absolute;
+        left: 1500px;
+        top:50px;
+    }
+
+}
+.derechos{
+    color: white;
+    position: absolute;
+    left:200px;
+    top:40px;
+}
+video{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.absolute{
+    width: 100%;
+    height: 100%;
+    top:0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    position: relative;
+    top: -200px;
+    font-size: 80px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-bottom: 30px;
+}
+.h1:after{
+    display: block;
+    width: 40%;
+    height: 10px;
+    content: "";
+    margin: auto;
+    background: #fff;
+}
+.overlay{
+    width: 100%;
+    height: 100%; 
+    position: absolute;
+    background: rgba(0,0,0,0.575);
+}
+.wave{
+    position: absolute;
+    bottom: 78px;
+    width: 100%;
+}
+.blanco{
+    width: 100%;
+    top:840px;
+    height: 60%;
+    position: absolute;
+    background: #06283D;
+}
+
+.slider{
+    width: 90%;
+    left: 100px;
+    top:1120px;
+    height: 90%;
+    position: absolute;
+    background: black;
+   
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+.slider img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   opacity: 0;
+   transition: all 0.7s;
+  object-fit: cover;
+}
+.slider input[type="radio"]{
+   display: none;
+}
+.slider input[type="radio"]:checked~ img{
+    opacity: 1;
+}
+.slider input[type="radio"]+ label{
+    position: relative;
+    z-index: 50;
+    margin: 30px;
+ 
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid #191A23;
+    cursor: pointer;
+}
+.slider input[type="radio"]:checked+label{
+   background: #191A23;
+   border:  2px solid white;
+    
+}
+
+/*iconos*/
+.periodicos{
+    position: absolute;
+    color: white;
+    bottom: 1px;
+    left: 250px;
+}
+.periodicos1{
+    left: 250px;
+    color: white;
+    position: absolute;
+    bottom: -105px;
+}
+.revistas{
+   position: absolute;
+    color: white;
+    bottom: 1px;
+    left: 830px;
+}
+.revistas1{
+    left: 820px;
+    color: white;
+    position: absolute;
+    bottom: -105px;
+}
+.articulos{
+    position: absolute;
+    color: white;
+    bottom: 1px;
+     left: 1350px;
+}
+.articulos1{
+    left: 1350px;
+    color: white;
+    position: absolute;
+    bottom: -105px;
+}
+
+
+/*BACKROUND*/
+
+.gris{
+    left: 210px;
+    width: 1480px;;
+    top:2000px;
+    height: 50%;
+    position: absolute;
+    background: #191A23;
+    border-radius:40px;
+}
+.linea1{
+    position: absolute;
+    top: 80px;
+    left: 450px;
+    background: white;
+    height: 200px;
+    width: 1px;
+}
+.texto1{
+    position: absolute;
+    left: 80px;
+    color: white;
+    top: 80px;
+}
+.linea2{
+    position: absolute;
+    top: 80px;
+    left: 930px;
+    background: white;
+    height: 200px;
+    width: 1px;
+}
+.texto2{
+    position: absolute;
+    left: 540px;
+    color: white;
+    top: 80px;
+}
+
+.texto3{
+    position: absolute;
+    left:1050px;
+    color: white;
+    top: 80px;
+}
+.contactanos{
+    top: 360px;
+    left: 80px;
+    position: absolute;
+    color: #5b7dcf;
+}
+.contactanos1{
+    top: 360px;
+    left: 540px;
+    position: absolute;
+    color: #5b7dcf;
+    
+}
+.contactanos2{
+    top: 360px;
+     left:1050px;
+    position: absolute;
+    color:  #5b7dcf;
+}
+
+/*perfiles*/
+.card{
+    right: 100px;
+    width: 420px;
+    top: 1450px;
+    border-radius: 10%;
+    box-shadow: 16px 14px 20px #000008;
+    overflow: hidden;
+     align-items: center;
+    justify-content: center;
+    border: 1px black;
+}
+.card:before{
+    content: "";
+    position: absolute;
+    height: 810px;
+    width: 780px;
+    background-image: conic-gradient(#6b8e23 20deg, transparent 120deg);
+    animation: rotar 3.5s linear infinite;
+}
+@keyframes rotar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+.card:after{
+    content: "";
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10%;
+      
+}
+
+.imagenP{
+    position: relative;
+    left:-90px;
+     z-index: 2;
+}
+.lineaN{
+    position: absolute;
+    left: 60px;
+    background: black;
+    height: 1px;
+    width: 300px;
+     z-index: 2;
+}
+.card-title{
+    position: absolute;
+    left: 160px;
+    z-index: 2;
+}
+.card-subtitle{
+    position: absolute;
+    top:60px;
+    left: 160px;
+     z-index: 2;
+}
+.card-text{
+    position: relative;
+    left: -0px;
+    color: black;
+     z-index: 2;
+}
+.vaya6{
+    top:  1550px;
+    left: 1250px;
+    position: absolute;
+   
+}
+.vaya5{
+    top:  1550px;
+    position: absolute;
+    right: 500px;
+}
+.vaya4{
+    top:  1550px;
+    position: absolute;
+    right: 979px;
+}
+.vaya3{
+    position: absolute;
+    right: 20px;
+}
+.vaya2{
+    position: absolute;
+    right: 500px;
+}

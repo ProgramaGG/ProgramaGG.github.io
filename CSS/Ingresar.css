@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+.home{
+    color: white;
+    position: relative;
+    right:1775px;
+    top:5px;
+}
+.dropdown{
+    position: absolute;
+    left: 1400px;
+}
+
+.container{
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    position: absolute;
+    flex-wrap: wrap;
+    left: 755px;
+    top: 90px;
+
+}
+.card{
+    background: rgba(255,255,255,0.8);
+    border-radius: 5px;
+   box-shadow: 0 8px 32px 0 rgba(0,0,0,0.47);
+   
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    border-bottom: none;
+    border-radius: 10px;
+    background: #06283D;
+    border-color: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.iconos{
+    position: absolute;
+    left: 20px;
+
+}
+.iconos1{
+    position: absolute;
+    left: 16px;
+    top:468px;
+
+}
+.iconos2{
+    position: absolute;
+    left: 18px;
+    top:388px;
+
+}
+.letra{
+    position: absolute;
+    left: 40px;
+}
+
+.terminos{
+    position: absolute;
+    right: 280px;
+}
+.terminos1{
+    position: absolute;
+    right: 80px;
+}
+
+.modal-body{
+    height: 300px;
+    overflow-y: scroll;
+    text-align: left;
+}
+.h3{
+    color:#06283D;
+}
+
+
+
+.pie{
+    background: #3c3c3c;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 1070px;
+
+    .face{
+        position: absolute;
+        left: 1415px;
+        top:40px;
+    }
+    .gor{
+        position: absolute;
+        left: 1500px;
+        top:40px;
+    }
+    .derechos{
+    color: white;
+    position: absolute;
+    left:200px;
+    top:40px;
+}
+
+}
+

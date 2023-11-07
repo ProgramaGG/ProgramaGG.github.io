@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-size: cover;
+    background: url("../images/pine-wat.jpeg");
+
+
+}
+.pie{
+    background: #3c3c3c;
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    top: 1037px;
+
+    .face{
+        position: absolute;
+        left: 1415px;
+        top:50px;
+    }
+    .gor{
+        position: absolute;
+        left: 1500px;
+        top:50px;
+    }
+    .derechos{
+        color: white;
+        position: absolute;
+        left:200px;
+        top:40px;
+    }
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.calendar {
+    margin: 20px 0;
+
+}
+
+table {
+    width: 20%;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #66A5AD;
+    color: #fff;
+}
+
+td {
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #2B2D42;
+    color: white;
+}
+.today {
+    background-color:#6096e5;
+    color: #fff;
+}
+label {
+    display: block;
+    border: black;
+}
+.field{
+    position: relative;
+    border-radius: 5px;
+    border-color: gray;
+    left:50px;
+    height: 40px;
+    width: 345px;
+}
+.btn1{
+    position: relative;
+    left: 48px;
+    top:  10px;
+    border-radius: 5px;
+    text-align: center;
+    width:  150px;
+    height: 40px;
+   
+}
+
+.containerU2{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    width: 88%;
+
+}
+.card0{
+    background: rgba(255,255,255,0.5);
+    
+    height: 780px;
+}
+.seleccionarM{
+    position: relative;
+    left: 50px;
+}
+.card1{
+    position: relative;
+    top: 60px;
+    left: 50px;
+    background: white;
+    width: 450px;
+    height: 610px;
+    border-radius: 25px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.47);
+}
+.card2{
+    position: absolute;
+    top: 70px;
+    left: 650px;
+    border: black;
+    background: rgba(255,255,255,0.7);
+    width: 450px;
+    height: 610px;
+    border-radius: 25px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.47);
+}
+.card3{
+    position: absolute;
+    top: 70px;
+    left: 1150px;
+     border: black;
+    background:rgba(0,0,0,0.9);
+    width: 450px;
+    height: 610px;
+    border-radius: 25px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.47);
+}
+
+.calendar{
+    position: relative;
+    left: 50px;
+
+}
+
+/*de dia*/
+.diasemana{
+    position: relative;
+    left:50px;
+    top:20px;
+    color: black;
+}
+.fecha{
+    position: relative;
+    top:10px;
+    left: 50px;
+    color: gray;
+}
+.iconoC{
+    position: relative;
+    left: 60px;
+}
+.temperatura{
+    position: absolute;
+    top:130px; 
+    left:240px;
+    color: black;
+}
+.subtemperatura{
+    position: absolute;
+    top:140px;
+    left:300px;
+    color: gray;
+}
+.descripcion{
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;  
+}
+.text1{
+    padding-left: 50px;
+    padding-right: 50px; 
+    color: #06283D;
+}
+.UV{
+    position: absolute;
+    bottom:  275px;
+    padding-left: 210px;
+    padding-right: 10px;
+    color: grey;
+}
+.vientos{
+     position: absolute;
+    bottom:  243px;
+    left:275px;
+    color: grey;
+}
+.rafagas{
+    position: absolute;
+    bottom:  208px;
+    left:293px;
+    color: grey;
+}
+.nubosidad{
+     position: absolute;
+    bottom:  176px;
+    left:328px;
+    color: grey;
+}
+.humedad{
+    padding-top: 40px;
+    padding-left: 100px;
+}
+.humedad1{
+    position: absolute;
+    bottom:  95px;
+    left: 150px;
+}
+
+/*de noche*/
+.diasemanaN{
+    position: relative;
+    left:50px;
+    top:20px;
+    color: white; 
+}
+.fechaN{
+    position: relative;
+    top:10px;
+    left: 50px;
+    color: gray;
+}
+.temperaturaN{
+    position: absolute;
+    top:130px; 
+    left:240px;
+    color: white;
+}
+.descripcionN{
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;  
+}
+.text1N{
+    padding-left: 50px;
+    padding-right: 50px; 
+    color: white;
+}
+.vientosN{
+    position: absolute;
+    bottom:  273px;
+    left:275px;
+    color: grey;
+}
+.rafagasN{
+    position: absolute;
+    bottom:  240px;
+    left:310px;
+    color: grey;
+}
+.precipitacion{
+     position: absolute;
+    bottom:  212px;
+    left:343px;
+    color: grey;
+}
+.nubosidadN{
+     position: absolute;
+    bottom:  182px;
+    left:345px;
+    color: grey;
+}
+/*nabvar*/
+.home{
+    color: white;
+    position: relative;
+    right:220px;
+    top:5px;
+}
+
+.h500{
+    position: absolute;
+    left:60px;
+    bottom: -5px;
+    color: white
+}
+.h510{
+    position: absolute;
+    left:60px;
+    bottom: -5px;
+    color: white
+}
+.h520{
+    position: absolute;
+    left:55px;
+    bottom: -5px;
+    color: white
+}
+.nav-itemb{
+    position: relative;
+    right: 3px;
+
+
+}
+.nav-itemb1{
+    position: relative;
+    right: 270px;
+
+}
+.nav-itemb2{
+    position: relative;
+    right: 505px;
+
+}
+.nav-itemb3{
+    position: absolute;
+    left:  420px;
+
+}
+.nav-itemb4{
+    position: absolute;
+    left:560px;
+
+}
+.form-group{
+    position: relative;
+    bottom:  7px;
+    left: 330px;
+}
+.form_link{
+    color:#fff;
+
+}
+.tablausu{
+    position:relative;
+    left: 426px;
+}
+.perfil{
+    display: flex;
+    justify-content: center;
+
+}
+.nom{
+    position: absolute;
+    top:-5px;
+    right: 70px;
+}
+.register{
+    position: relative;
+    top:7px;
+    left: 127px;
+}
+.dropdown{
+    position: absolute;
+    left: 1500px;
+}
+

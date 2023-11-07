@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+
+}
+body{
+    background: url("../images/invierno.jpg");
+    background-size: cover;
+}
+.contact
+{
+    position: absolute;
+    top:100px;
+    left: 170px;
+    width: 1500px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.container-2{
+    position: relative;
+    top:35px;
+    left: 60px;
+    display: flex;
+    height: 60px;
+    width: 260px;
+    color: #F3F3F3;
+    background: #06283D;
+    border: 2px solid #333 ;
+    border-radius: 5px;
+    padding: 3px 5px;
+
+
+}
+.contact .content
+{
+    position: relative;
+    left: -120px;
+    top: -110px;
+    max-width: 500px;
+    text-align: initial;
+    display: grid;
+
+}
+.contact .content
+{
+    display: flex;
+    position: relative;
+    margin-right: 100px;
+    margin-left: 490px;
+    margin-top: 83px;
+    font-weight: 400
+}
+
+.container
+{
+    position: relative;
+    width: 300px;
+    height: 320px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    left: 60px;
+    margin: 50px;
+    top:-20px;
+}
+.container .contactoInfo
+{
+    width: 30%;
+    margin-right: 10px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactoInfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+.container .contactoInfo .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #000000;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactoInfo .box .text h3
+{
+    font-weight: 500;
+    color:rgb(2, 2, 2);
+}
+.contactForm
+{   
+    position: absolute;
+    left: 50px;
+    width: 1450px;
+    height: 750px;
+    background: #F3F3F3;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.47);
+}
+.p{
+    color: black;
+}
+.contactForm .inputbox
+{
+    position: relative;
+    width: 600px;
+
+
+}
+.contactForm .inputbox input,
+.contactForm .inputbox textArea
+{
+    width: 600px;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin: 0 0;
+    margin-bottom: 20px;
+    border: 2px solid #191A23 ;
+    border-radius: 20px;
+    outline: none;
+    resize: none;
+}
+.inputbox textArea{
+    width: 100px;
+    height: 200px;
+}
+.contactForm .inputbox input[type="submit"]
+{
+    width: 600px;
+    background: #191A23;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 20px 10px;
+
+
+}
+.inputbox input[type="submit"]:hover
+{
+    background-color: #06283D;
+}
+.form
+{
+    font-weight: 600;
+}
+id{
+    width:330px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+
+.div1{
+    overflow:scroll;
+    height:50px;
+    width:500px;
+}
+
+.estrella
+{
+    display: flex;
+   top: -210px;
+    position: absolute;
+    left: 900px;
+   justify-content: end
+
+}
+
+
+
+
+/*nabvar*/
+.home{
+    color: white;
+    position: relative;
+    right:220px;
+    top:5px;
+ }
+ 
+ .h500{
+     position: absolute;
+     left:60px;
+     bottom: -5px;
+     color: white
+ }
+ .h510{
+     position: absolute;
+     left:60px;
+     bottom: -5px;
+     color: white
+ }
+ .h520{
+     position: absolute;
+     left:55px;
+     bottom: -5px;
+     color: white
+ }
+  .nav-itemb{
+     position: relative;
+     right: 3px;
+     
+         
+ }
+ .nav-itemb1{
+     position: relative;
+     right: 270px;
+         
+ }
+ .nav-itemb2{
+     position: relative;
+    right: 505px;
+         
+ }
+.nav-itemb3{
+     position: absolute;
+    left:  420px;
+         
+ }
+  .nav-itemb4{
+     position: absolute;
+    left:560px;
+         
+ }
+  .form-group{
+     position: relative;
+     bottom:  7px;
+     left: 330px;
+ }
+ .form_link{
+     color:#fff;
+     
+ }
+.tablausu{
+    position:relative;
+  left: 426px;
+}
+ .perfil{
+     display: flex;
+     justify-content: center;
+     
+ }
+.nom{
+     position: absolute;
+     top:-5px;
+     right: 70px;
+ } 
+ .register{
+   position: relative;
+   top:7px;
+   left: 127px;
+ } 
+ .dropdown{
+     position: absolute;
+     left: 1500px;
+ }
+/*footer*/
+.pie{
+    background: #3c3c3c;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 900px;
+
+    .face{
+        position: absolute;
+        left: 1415px;
+        top:40px;
+    }
+    .gor{
+        position: absolute;
+        left: 1500px;
+        top:40px;
+    }
+}
+.derechos{
+    color: white;
+    position: absolute;
+    left:200px;
+    top:40px;
+}

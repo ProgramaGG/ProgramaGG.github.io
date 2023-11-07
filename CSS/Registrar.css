@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../images/mapas.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    .h1{
+        position: absolute;
+        top:200px;
+        left: 500px;
+        color:white;
+    }
+    .p1{
+        position: absolute;
+        top:170px;
+        left: 500px;
+        color:white;
+    }
+    .p2{
+        position: absolute;
+        top:310px;
+        left: 500px;
+        color:white;
+    }
+    .p3{
+        position: absolute;
+        top:360px;
+        left: 490px;
+        color:white;
+    }
+    .pe4{
+        position: absolute;
+        top:360px;
+        left: 490px;
+        color:white;
+    }
+}
+.home{
+    color: white;
+    position: relative;
+    right:813px;
+    top:5px;
+}
+
+.dropdown{
+    position: absolute;
+    left: 1400px;
+}
+.container{
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    height: 750px;
+    position: absolute;
+    flex-wrap: wrap;
+    right:  405px;
+    top: 100px;
+}
+.pie{
+    background: #3c3c3c;
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    top: 777px;
+
+    .face{
+        position: absolute;
+        left: 1415px;
+        top:70px;
+    }
+    .gor{
+        position: absolute;
+        left: 1500px;
+        top:70px;
+    }
+
+}
+.derechos{
+    color: white;
+    position: absolute;
+    left:200px;
+    top:40px;
+}
+.derechos{
+    color: white;
+    position: absolute;
+    left:200px;
+    top:70px;
+}
+
+.card{
+    background: #06283D;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.47);
+}
+.h4{
+    color: white;
+}
+.h9{
+    color: white;
+}
+.h8{
+    color:#ADD8E6;
+}
+.btn1{
+    width: 100%;
+    height: 40px;
+    border-bottom: none;
+    border-radius: 10px;
+    background: #5b89b0;
+    border-color: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.btn{
+    position: relative;
+    right: 50px;
+}
+

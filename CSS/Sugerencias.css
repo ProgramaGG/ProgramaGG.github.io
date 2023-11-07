@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+  
+    background-size: cover;
+    background: url("../images/pintura-fondo.jpg");
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.select{
+   max-height: 20px;
+   overflow-y: scroll; 
+}
+/*footer*/
+.pie{
+    background: #3c3c3c;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 1070px;
+
+    .face{
+        position: absolute;
+        left: 1415px;
+        top:40px;
+    }
+    .gor{
+        position: absolute;
+        left: 1500px;
+        top:40px;
+    }
+}
+.derechos{
+    color: white;
+    position: absolute;
+    left:200px;
+    top:40px;
+}
+
+/*nabvar*/
+.home{
+    color: white;
+    position: relative;
+    right:220px;
+    top:5px;
+ }
+ 
+ .h500{
+     position: absolute;
+     left:60px;
+     bottom: -5px;
+     color: white
+ }
+ .h510{
+     position: absolute;
+     left:60px;
+     bottom: -5px;
+     color: white
+ }
+ .h520{
+     position: absolute;
+     left:55px;
+     bottom: -5px;
+     color: white
+ }
+  .nav-itemb{
+     position: relative;
+     right: 3px;
+     
+         
+ }
+ .nav-itemb1{
+     position: relative;
+     right: 270px;
+         
+ }
+ .nav-itemb2{
+     position: relative;
+    right: 505px;
+         
+ }
+.nav-itemb3{
+     position: absolute;
+    left:  420px;
+         
+ }
+  .nav-itemb4{
+     position: absolute;
+    left:560px;
+         
+ }
+  .form-group1{
+     position: relative;
+     bottom:  7px;
+     left: 330px;
+ }
+ .form_link{
+     color:#fff;
+     
+ }
+.tablausu{
+    position:relative;
+   left: 426px;
+}
+ .perfil{
+     display: flex;
+     justify-content: center;
+     
+ }
+.nom{
+     position: absolute;
+     top:-5px;
+     right: 70px;
+ } 
+ .register{
+   position: relative;
+   top:7px;
+   left: 127px;
+ } 
+ .dropdown{
+     position: absolute;
+     left: 1500px;
+ }
+ 
+ /*buscar*/
+
+ .buscar{
+     position: absolute;
+     display: flex;
+     top:30px;
+    
+ }
+ .form{
+     display: flex;
+    padding-bottom: 30px;
+     padding-left: 1300px;
+      
+ }
+ 
+ /*container*/
+ .containerU2{
+     position: absolute;
+     left:100px;
+     top: 100px;
+    
+ }
+ .card{
+   
+      width: 1700px;
+     height: 800px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 5px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.47);
+ }
+ 
+ .card1{
+     color: white;
+    width: 510px;
+    height: 50px;
+    background: rgba(6, 40, 61);
+    border-radius: 5px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.47);
+    
+ }
+  .card2{
+     color: white;
+    width: 617px;
+    height: 200px;
+    background:#40577E;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.47);
+   text-align: center;
+ }
+ .card3{
+    position: absolute;
+    right: 570px;
+    color: white;
+    width: 417px;
+    height: 200px;
+    background: #54582f;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.47);
+    text-align: center;
+ }
+  .card4{
+    position: absolute;
+    
+    right: 100px;
+    color: white;
+    width: 417px;
+    height: 200px;
+    background: #398AB9;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.47);
+    text-align: center;
+ }
+ .h5{
+     width: 600px;
+     position: relative;
+     top: 20px;
+ }
+ .h51{
+     left: 20px;
+     width: 370px;
+     position: relative;
+     top: 20px;
+ }
+  .h52{
+     left: 20px;
+     width: 365px;
+     position: relative;
+     top: 20px;
+ }
+ .h21{
+     position: absolute;
+     left: 695px;
+     bottom: 710px;
+ }
+ /*tabla*/
+ .cuadro1{
+     width: 600px;
+     padding-left: 20px;
+ }
+ /*img*/
+ .img1{
+     position: absolute;
+    
+ }
+
+.borderRadius{-moz-border-radius:5px; border-radius:5px; }
+.borderRadiusTp{-moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0;}
+.borderRadiusBtm{-moz-border-radius:0 0 5px 5px ; border-radius:0 0 5px 5px;}
+
+.ddcommon {position:relative;display:-moz-inline-stack; zoom:1; display:inline-block; *display:inline; cursor:default;}
+.ddcommon ul{padding:0;margin:0;}
+.ddcommon ul li{list-style-type:none;}
+.borderRadiusTp ul li:last-child{-moz-border-radius:0 0 5px 5px ; border-radius:0 0 5px 5px;border-bottom:0 none #c3c3c3; }
+.borderRadiusBtm ul li:first-child{-moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0 ;border-bottom:1 solid #c3c3c3; }
+
+.ddcommon .disabled img, .ddcommon .disabled span, .ddcommon.disabledAll{
+opacity: .5; /* standard: ff gt 1.5, opera, safari */
+-ms-filter:"alpha(opacity=50)"; /* ie 8 */
+filter:alpha(opacity=50); /* ie lt 7 */
+-khtml-opacity:.5; /* safari 1.x */
+-moz-opacity:.5; /* ff lt 1.5, netscape */
+color:#999999;
+}
+.ddcommon .clear{clear:both}
+.ddcommon .shadow{-moz-box-shadow:5px 5px 5px -5px #888888;-webkit-box-shadow:5px 5px 5px -5px #888888;box-shadow: 5px 5px 5px -5px #888888;}
+.ddcommon input.text{color:#7e7e7e;padding:0 0 0 0; position:absolute; background:#fff; display:block; width:98%; height:98%; left:2px; top:0; border:none;}
+.ddOutOfVision{position:relative; display:-moz-inline-stack; display:inline-block; zoom:1; *display:inline;}
+.borderRadius .shadow{-moz-box-shadow:5px 5px 5px -5px #888888;-webkit-box-shadow:5px 5px 5px -5px #888888;box-shadow: 5px 5px 5px -5px #888888;}
+.borderRadiusBtm .shadow{-moz-box-shadow:-5px -5px 5px -5px #888888;-webkit-box-shadow:-5px -5px 5px -5px #888888;box-shadow: -5px -5px 5px -5px #888888}
+.borderRadiusTp .border, .borderRadius .border{-moz-border-radius:0 0 5px 5px ; border-radius:0 0 5px 5px;}
+.borderRadiusBtm .border{-moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0;}
+img.fnone{float:none !important}
+.ddcommon .divider{width:0; height:100%; position:absolute;}
+.ddcommon .ddArrow{display:inline-block; position:absolute; top:50%; right:4px;}
+.ddcommon .ddArrow:hover{background-position:0 100%;}
+.ddcommon .ddTitle{padding:0; position:relative; display:inline-block; width:100%}
+.ddcommon .ddTitle .ddTitleText{display:block;}
+.ddcommon .ddTitle .ddTitleText .ddTitleText{padding:0;}
+.ddcommon .ddTitle .description{display:block;}
+.ddcommon .ddTitle .ddTitleText img{position:relative; vertical-align:middle; float:left}
+.ddcommon .ddChild{position:absolute;display:none;width:100%;overflow-y:auto; overflow-x:hidden; zoom:1; z-index:9999}
+.ddcommon .ddChild li{clear:both;}
+.ddcommon .ddChild li .description{display:block;}
+.ddcommon .ddChild li img{border:0 none; position:relative;vertical-align:middle;float:left}
+.ddcommon .ddChild li.optgroup{padding:0;}
+.ddcommon .ddChild li.optgroup .optgroupTitle{padding:0 5px; font-weight:bold; font-style:italic}
+.ddcommon .ddChild li.optgroup ul li{padding:5px 5px 5px 15px}
+.ddcommon .noBorderTop{border-top:none 0  !important; padding:0; margin:0;}
+
+/*************** default theme **********************/
+.dd{border:1px solid #c3c3c3;}
+.dd .divider{border-left:1px solid #c3c3c3; border-right:1px solid #fff;; right:24px;}
+.dd .ddArrow{width:16px;height:16px; margin-top:-8px; background:url(../images/icons/icon-search.gif) no-repeat;}
+.dd .ddArrow:hover{background-position:0 100%;}
+.dd .ddTitle{color:#000;background:#e2e2e4 url(../skin1/title-bg.gif) repeat-x left top;}
+.dd .ddTitle .ddTitleText{padding:5px 20px 5px 5px;}
+.dd .ddTitle .ddTitleText .ddTitleText{padding:0;}
+.dd .ddTitle .description{font-size:12px; color:#666}
+.dd .ddTitle .ddTitleText img{padding-right:5px;}
+.dd .ddChild{border:1px solid #c3c3c3; background-color:#fff; left:-1px;}
+.dd .ddChild li{padding:5px; background-color:#fff; border-bottom:1px solid #c3c3c3;}
+.dd .ddChild li .description{color:#666;}
+.dd .ddChild li .ddlabel{color:#333;}
+.dd .ddChild li.hover{background-color:#f2f2f2}
+.dd .ddChild li img{padding:0 6px 0 0;}
+.dd .ddChild li.optgroup{padding:0;}
+.dd .ddChild li.optgroup .optgroupTitle{padding:0 5px; font-weight:bold; font-style:italic}
+.dd .ddChild li.optgroup ul li{padding:5px 5px 5px 15px}
+.dd .ddChild li.selected{background-color:#d5d5d5; color:#000;}
